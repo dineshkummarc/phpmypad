@@ -1,0 +1,48 @@
+*{margin:0px; padding:0px; border:0px; font-size:14px; font:inherit; vertical-align:baseline; font-family:Ariel, sans-serif;}
+html, body{width:100%; height:100%;}
+#loading{position:fixed; width:100%; height:100%; top:0px; background:#ffffff; z-index:10;}
+#loading div{position:absolute; width:200px; height:100px; top:0; left:0; right:0; bottom:0; margin:auto; text-align:center;}
+
+header{width:100%; height:30px; padding-top:10px; text-align:center; font-size:14px;}
+header #log_info{width:300px; height:20px; margin:0px auto; color:#222222; text-align:center;}
+header #log_info span{color:#aaaaaa; font-size:12px; cursor:pointer;}
+header #log_info span:hover{color:#000000; font-weight:bold;}
+header #login_bar{width:300px; height:20px; margin:0px auto; display:none;}
+#login_bar input{float:left; width:105px; height:20px; margin:0px 5px; padding-left:5px; font-size:12px; background:#f4f4f4; border-radius:5px;}
+#login_bar input[type=submit]{float:left; width:50px; padding:0px; height:20px; color:#111111; background:#aaaaaa; border-radius:5px; cursor:pointer;}
+#login_bar input[type=submit]:hover{background:#333333; color:#ffffff; font-weight:bold;}
+
+#pad{margin:0px auto; border-radius:30px; background:#111111;}
+#screen{float:left; background:#000000;}
+#top_bar{float:left; height:16px; padding:2px 0px; background:rgba(200,200,200,0.2); font-size:14px;}
+#clock{text-align:center; color:#ffffff;}
+#ampm{font-size:10px;}
+
+#slidepage{float:left; overflow:hidden;}
+
+@media all and (min-width:961px) {
+	#pad{width:840px; height:630px; padding:45px 60px;}
+	#screen{width:840px; height:630px;}
+	#top_bar{width:840px;}
+
+	#bottom_bar{}
+	}
+@media all and (min-width:721px) and (max-width:960px){
+	#pad{width:630px; height:840px; padding:60px 45px;}
+	#screen{width:630px; height:840px;}
+	#top_bar{width:630px;}
+}
+@media all and (min-width:401px) and (max-width:720px){
+	#pad{width:370px; height:650px; padding:40px 15px;}
+	#screen{width:370px; height:650px;}
+	#top_bar{width:370px;}
+}
+@media all and (max-width:400px){
+	#pad{display:none;}
+}
+
+
+footer{float:left; width:100%; height:60px; text-align:center; padding-top:30px;}
+footer h1{width:300px; height:30px; margin:0px auto; font-size:16px;}
+footer p{width:200px; height:20px; margin:0px auto; padding:5px 50px; font-size:10px;}
+footer img{float:left; width:80px; height:15px; margin:0px 10px;}

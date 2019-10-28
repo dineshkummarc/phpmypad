@@ -1,0 +1,56 @@
+/******************** 최초 선택화면 ********************/
+#member_check{width:100%; padding-top:30px;}
+#member_check #box_check{width:300px; margin:0px auto; text-align:center;}
+#go_guest, #go_member{float:left; width:150px; height:120px; padding-top:80px; margin-top:10px; font-size:20px; color:#dddddd; cursor:pointer;}
+#go_guest{background:#595959; border-radius:10px 0px 0px 10px;}
+#go_member{background:#676767; border-radius:0px 10px 10px 0px;}
+#go_guest:hover{background:#333333; color:#ffffff; font-size:22px; font-weight:bold;}
+#go_member:hover{background:#333333; color:#ffffff; font-size:22px; font-weight:bold;}
+
+/******************** 폼 기본 틀 ********************/
+#member_check .box_form{width:300px; margin:0px auto;  display:none;}
+.box_title{float:left; width:300px; height:60px; font-size:30px; color:#eeeeee; background:#272727; text-align:center; line-height:55px;  border-radius:10px;}
+.input_form{float:left; width:280px; height:30px; padding:10px 10px 0px 10px;}
+
+/******************** 로그인 폼 ********************/
+#box_login label{float:left; width:70px; height:30px; margin-right:10px; font-size:16px; line-height:30px;}
+#box_login input{float:left; width:195px; height:30px; padding-left:5px; font-size:14px; background:#f4f4f4; border-radius:5px;}
+#box_login input[type=submit], #box_login input[type=reset]{width:280px; background:#aaaaaa; cursor:pointer; padding:0px;}
+#box_login input[type=submit]:hover, #box_login input[type=reset]:hover{background:#333333; color:#eeeeee; font-size:16px; font-weight:bold;}
+/******************** 중복확인 창 ********************/
+#idc_back{position:fixed; top:0px; width:100%; height:100%; background:rgba(70,70,70,0.5); display:none;}
+#box_idcheck{width:220px; height:175px; padding:10px; margin:100px auto; background:#777777; border-radius:10px;}
+#box_idcheck #idc_title{float:left; width:220px; height:65px; text-align:center;}
+#box_idcheck h2{float:left; width:220px; height:35px; text-align:center; font-size:20px; line-height:30px; color:#ffffff; background:#333333; border-radius:5px;}
+#box_idcheck p{float:left; width:220px; height:25px; padding-top:5px; text-align:center; font-size:12px; font-weight:bold; line-height:20px; color:#ff5555; display:none;}
+#box_idcheck #idc_now4, #box_idcheck #idc_now5{color:#55ff55;}
+#box_idcheck label{float:left; width:55px; height:40px; font-size:16px; line-height:26px; color:#ffffff;}
+#box_idcheck input{float:left; width:160px; height:30px; padding-left:5px; margin-bottom:10px; font-size:14px; background:#f4f4f4; border-radius:5px;}
+#box_idcheck input[type=button],#box_idcheck input[type=reset]{width:220px; cursor:pointer;}
+#box_idcheck input[type=button]:hover,#box_idcheck input[type=reset]:hover{color:#eeeeee; background:#333333; font-weight:bold;}
+
+/******************** 회원가입 폼 ********************/
+#box_registration h2{float:left; width:300px; height:20px; padding-top:5px; font-size:12px; text-align:center;}
+#box_registration label{float:left; width:115px; height:30px; margin-right:5px; font-size:16px; line-height:30px;}
+#box_registration input{float:left; width:155px; height:30px; padding-left:5px; font-size:14px; background:#f4f4f4; border-radius:5px;}
+#box_registration input[type=submit], #box_registration input[type=reset], #box_registration input[type=button]{width:280px; padding:0px; background:#aaaaaa; cursor:pointer;}
+#box_registration input[type=submit]:hover, #box_registration input[type=reset]:hover, #box_registration input[type=button]:hover{background:#333333; color:#eeeeee; font-weight:bold;}
+#box_registration #idc_complete{color:#55ff55; background:#333333; font-weight:bold; display:none;}
+#terms{float:left; width:260px; height:60px; margin:10px; padding:10px; background:#999999; overflow-y:scroll; font-size:12px; border-radius:5px;}
+#box_registration #terms h3{text-align:center; font-size:16px;}
+#box_registration input[type=checkbox]{float:left; width:20px; height:20px; padding:0px; margin-left:10px; font-size:14px; cursor:pointer;}
+#box_registration p{float:left; width:240px; height:20px; margin-left:5px; font-size:14px; line-height:18px;}
+#box_registration span{font-size:16px; color:#ff0000;}
+
+
+/******************** 아이디,비밀번호 찾기 폼 ********************/
+#box_find label{float:left; width:60px; height:30px; margin-right:10px; font-size:16px; line-height:30px;}
+#box_find input{float:left; width:205px; padding-left:5px; height:30px; font-size:14px; background:#f4f4f4; border-radius:5px;}
+#box_find input[type=submit]{width:280px; background:#aaaaaa; cursor:pointer;}
+#box_find input[type=submit]:hover{background:#333333; color:#eeeeee; font-weight:bold;}
+#box_find h2{float:left; width:300px; height:40px; margin-top:20px; font-size:20px; text-align:center; color:#333333; background:#cdcdcd; line-height:36px; cursor:pointer; border-radius:5px;}
+#box_find h2:hover{color:#ffffff; background:#474747; font-weight:bold;}
+#box_find h3{float:left; width:300px; height:40px; margin-top:20px; font-size:20px; text-align:center; color:#ffffff; background:#474747; line-height:36px; font-weight:bold; cursor:pointer; border-radius:5px;}
+
+
+/******************** 주석 ********************/
